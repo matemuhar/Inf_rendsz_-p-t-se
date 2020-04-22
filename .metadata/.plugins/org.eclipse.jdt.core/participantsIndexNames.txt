@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+D:\ME\Inf_rendsz_építése\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\372258606.index
+\FirstJSP\src
+D:\ME\Inf_rendsz_építése\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1728158756.index
+\StatefulExample\src
+D:\ME\Inf_rendsz_építése\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\517451976.index
+\StatelessExample\src
+D:\ME\Inf_rendsz_építése\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\86486680.index
+\JSPExample\src
+D:\ME\Inf_rendsz_építése\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1505794613.index
+\StatelessExample\src

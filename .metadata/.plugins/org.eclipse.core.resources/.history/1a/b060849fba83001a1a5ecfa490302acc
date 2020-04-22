@@ -1,0 +1,20 @@
+package org.ait.businesslogic;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class BookBean
+ */
+@Stateless
+@LocalBean
+public class BookBean implements BookBeanRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public BookBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

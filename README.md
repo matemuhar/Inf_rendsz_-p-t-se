@@ -1,0 +1,2 @@
+# INFREND
+ Informatikai rendszerek építése

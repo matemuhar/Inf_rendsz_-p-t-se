@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+<body>
+	<ui:composition>
+		<h:form>
+			<p:growl>
+				<p:autoUpdate />
+			</p:growl>
+			<p:panelMenu style="width:240px" stateful="true" id="mainMenu"
+				widgetVar="panelMenu">
+				<p:submenu label="Menu">
+					<p:menuitem id="p1" value="Input"
+						icon="fa fa-user" outcome="page1" update=":inputForm" />
+						<p:menuitem id="p2" value="TableView"
+						icon="fa fa-user" outcome="page2" update=":inputForm" />
+				</p:submenu>
+				<p:separator />
+			</p:panelMenu>
+			<h:outputScript name="js/script.js" />
+		</h:form>
+	</ui:composition>
+</body>
+</html>
