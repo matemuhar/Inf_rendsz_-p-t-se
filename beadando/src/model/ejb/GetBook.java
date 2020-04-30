@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import model.Book;
 
 /**
- * Servlet implementation class GetClient
+ * Servlet implementation class GetBook
  */
 @WebServlet(name = "GetBook", urlPatterns = {"/GetBook"})
 public class GetBook extends HttpServlet {
@@ -22,7 +22,7 @@ public class GetBook extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String id = request.getParameter("id");       
-        Book book = BookDAO.getBook(id);
+        Book book = bookDAO.getBook(id);
         request.setAttribute("book", book);
         request.getRequestDispatcher("bookinfo.jsp").forward(request, response);
     }
